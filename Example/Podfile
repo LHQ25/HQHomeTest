@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HQHome_Example' do
+  pod 'HQHome', :path => '../'
+
+  target 'HQHome_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
