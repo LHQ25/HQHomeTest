@@ -12,14 +12,14 @@ Pod::Spec.new do |s|
   s.summary          = 'A short description of HQHome.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  首页模块测试
                        DESC
 
-  s.homepage         = 'https://github.com/louhanqing/HQHome'
+  s.homepage         = 'https://github.com/LHQ25/HQHomeTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'louhanqing' => 'louhanqing2012@163.com' }
-  s.source           = { :git => 'https://github.com/louhanqing/HQHome.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LHQ25/HQHomeTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -34,6 +34,6 @@ TODO: Add long description of the pod here.
    s.frameworks = 'UIKit' #, 'MapKit'
   s.dependency 'CTMediator'
   
-  s.dependency 'HQSearchExtension'
-  s.dependency 'HQNewsCategory'
+  # s.dependency 'HQSearchExtension'
+  # s.dependency 'HQNewsCategory'
 end
