@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'HQHome'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HQHome.'
+  s.summary          = '首页模块测试'
 
   s.description      = <<-DESC
-  首页模块测试
+  首页模块测试首页模块测试首页模块测试首页模块测试首页模块测试首页模块测试首页模块测试首页模块测试首页模块测试
                        DESC
 
   s.homepage         = 'https://github.com/LHQ25/HQHomeTest'
@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
   s.author           = { 'louhanqing' => 'louhanqing2012@163.com' }
   s.source           = { :git => 'https://github.com/LHQ25/HQHomeTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = '10.0'
 
