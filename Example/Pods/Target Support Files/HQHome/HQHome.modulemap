@@ -1,0 +1,6 @@
+framework module HQHome {
+  umbrella header "HQHome-umbrella.h"
+
+  export *
+  module * { export * }
+}
